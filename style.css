@@ -1,0 +1,30 @@
+.grid-center {
+  display: grid;
+  place-items: center;
+}
+/* NAV */
+nav .nav-wrapper {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 5px 1px #818289BD;
+  border-radius: 2rem 2rem 0 0;
+}
+nav .nav-wrapper .nav-items i {
+  font-size: 2rem;
+  color: #42434FA3;
+}
+/* ACTIVE NAV */
+nav .nav-wrapper .active {
+  color: #7CB342 !important;
+  transition: .3s;
+}
+/* INDICATOR */
+nav .nav-wrapper .line {
+  width: 80px;
+  height: 8px;
+  border-radius: 0 0 5px 5px;
+  background-color: #7CB342;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  transition: .3s ease-in-out;
+}
